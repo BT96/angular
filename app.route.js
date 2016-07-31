@@ -2,6 +2,10 @@ var LEEDOnApp = angular.module('LEEDOnApp', ['ui.router', 'infinite-scroll', 'oc
 
 // configure our routes
 LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) {
+
+    window.Intercom("boot", {
+        app_id: "jexwrrdy"
+    });
     
     // $compileProvider.debugInfoEnabled(false);
     $urlRouterProvider.otherwise("/login");
