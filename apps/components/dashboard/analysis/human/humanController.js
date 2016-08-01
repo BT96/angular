@@ -49,7 +49,7 @@ LEEDOnApp.controller('humanAnalysisController', function($rootScope, $scope) {
     var co2_last_month_data = 0;
     var voc_last_month_data = 0;
     $.ajax({
-            url: 'voc_resample_' + $scope.leed_id + '.json',
+            url: 'assets/json/voc_resample_' + $scope.leed_id + '.json',
             type: "GET",
     }).done(function(data) {
             for (var i = 0; i < data.length; i++) {
@@ -59,7 +59,7 @@ LEEDOnApp.controller('humanAnalysisController', function($rootScope, $scope) {
             };
     });
     $.ajax({
-            url: 'co2_resample_' + $scope.leed_id + '.json',
+            url: 'assets/json/co2_resample_' + $scope.leed_id + '.json',
             type: "GET",
     }).done(function(data) {
             for (var i = 0; i < data.length; i++) {
