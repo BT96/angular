@@ -1,0 +1,15 @@
+{
+    "generated_at": "2016-08-01T10:00:43.862",
+    "responses": 10,
+    "last_week": 0,
+    "modes": {
+        "bus": 10.89,
+        "heavy_rail": 15.84,
+        "walk": 8.91,
+        "car23": 7.92,
+        "light_rail": 12.87,
+        "cars4": 18.81,
+        "car": 12.87,
+        "motorcycle": 11.88
+    }
+}

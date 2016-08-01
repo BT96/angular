@@ -1,0 +1,14 @@
+{
+    "Human Experience Plaque Score": 2.0,
+    "Human Experience Subscores (out of 100, weighted equally)": {
+        "occupant_satisfaction": 30.096729468599094
+    },
+    "Human Experience Inputs": {
+        "variance_response": 6.5555555555555562,
+        "mean_response": 3.6666666666666665,
+        "occupant_satisfaction_fraction": 0.2608695652173913,
+        "co2": null,
+        "voc": null
+    },
+    "Human Experience Score (out of 100)": 10.032243156199698
+}

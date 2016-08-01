@@ -4930,7 +4930,8 @@ select.dist_select::-ms-expand {
     border: none;
     cursor: pointer;
     font-weight: 700;
-    outline: 0
+    outline: 0;
+    text-decoration: none;
 }
 
 #analysis_slider_red_emission .ui-slider-handle {
@@ -6969,4 +6970,8 @@ button:focus {outline:0 !important;}
 
 .bt0{
     border-top: 0px !important;
+}
+
+.containerDiv .input_nav.active, .containerDiv .input_nav:hover {
+    height: 50px !important;
 }
