@@ -63,6 +63,10 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
     $ocLazyLoad.load(['assets/js/survey.js?v-12.31', 'assets/libs/js/jquery-ui.js']);
 
     $http.get('assets/json/building_' + $scope.leed_id + '.json').success(function(data) {
+        Appcues.identify('19260', { 
+            building_name: $scope.name, 
+            ID: $scope.leed_id
+        });
 		$scope.building_name = data.name;
 		$scope.building_data = data;
 		if ($scope.building_data.state == $scope.building_data.country){

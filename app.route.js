@@ -1,11 +1,23 @@
 var LEEDOnApp = angular.module('LEEDOnApp', ['ui.router', 'infinite-scroll', 'oc.lazyLoad']);
 
+//Appcues code starts
+// LEEDOnApp.run(function($rootScope, $window) {
+//     $rootScope.$on('$locationChangeSuccess', function() {
+//         if ($window.Appcues) {
+//             $window.Appcues.start();
+//         }
+//     });
+// });
+//Appcues code ends
+
 // configure our routes
 LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) {
 
+    //Intercom code starts
     window.Intercom("boot", {
         app_id: "jexwrrdy"
     });
+    //Intercom code ends
     
     // $compileProvider.debugInfoEnabled(false);
     $urlRouterProvider.otherwise("/login");
