@@ -96,28 +96,28 @@
                     <form class="certification_list form" role="form" method="get" action="http://plaque.dev.leedon.io/buildings/" name="building_filter" id="building_filter">
                         <div class="certification_item dropdown_active">
                             <div>
-                                <input type="checkbox" class="checkboxCert" name="cert" value="Platinum">
+                                <input type="checkbox" class="checkboxCert" name="cert" ng-model='cert_1' ng-true-value="'platinum'" ng-false-value="''" value="Platinum">
                             </div>
                             <div class="circle_header platinum"></div>
                             Platinum <span id="pcount"></span>
                         </div>
                         <div class="certification_item dropdown_active">
                             <div>
-                                <input type="checkbox" class="checkboxCert" name="cert" value="Gold">
+                                <input type="checkbox" class="checkboxCert" name="cert" ng-model='cert_2' ng-true-value="'gold'" ng-false-value="''" value="Gold">
                             </div>
                             <div class="circle_header gold"></div>
                             Gold <span id="gcount"></span>
                         </div>
                         <div class="certification_item dropdown_active">
                             <div>
-                                <input type="checkbox" class="checkboxCert" name="cert" value="Silver">
+                                <input type="checkbox" class="checkboxCert" name="cert" ng-model='cert_3' ng-true-value="'silver'" ng-false-value="''" value="Silver">
                             </div>
                             <div class="circle_header silver"></div>
                             Silver <span id="scount"></span>
                         </div>
                         <div class="certification_item dropdown_active">
                             <div>
-                                <input type="checkbox" class="checkboxCert" name="cert" value="Certified">
+                                <input type="checkbox" class="checkboxCert" name="cert" ng-model='cert_4' ng-true-value="'certified'" ng-false-value="''" value="Certified">
                             </div>
                             <div class="circle_header bronze"></div>
                             Certified <span id="bcount"></span>
@@ -566,7 +566,7 @@
         </div>
         <div>
             <div id="search_private" class="mb60" infinite-scroll='loadMoreProjects()' infinite-scroll-disabled='loading_more_projects'>
-                <div ng-repeat="building in buildings | filter:searchText as searched_buildings">
+                <div ng-repeat="building in buildings | filter: searchText | filter: {certification:cert_1} | filter: {certification:cert_2} | filter: {certification:cert_3} | filter: {certification:cert_4} as searched_buildings">
                     <div ui-sref="dashboardState({leed_id: {{building.leed_id}}})" leedon_activated="True" class="39065 list project_row mont" source="LEED" trial_expire_date="null" trial_status="false" building_status="activated">
                         <div class="listAttr" style="color: rgb(88, 150, 211);font-weight:bold;">{{building.name}}</div>
                         <div class="listAttr">{{building.location}}</div>

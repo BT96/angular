@@ -18,7 +18,7 @@
   {
     "city": "SAINT PETERSBURG",
     "name": "MID CITY",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USFL",
@@ -34,7 +34,7 @@
   {
     "city": "Naperville",
     "name": "Test Project11",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USTX",
@@ -50,7 +50,7 @@
   {
     "city": "Washington",
     "name": "Project Test 2",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USWA",
@@ -66,7 +66,7 @@
   {
     "city": "Montgomery",
     "name": "Hyundai Motor Manufacturing Alabama, Llc",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USAL",
@@ -82,7 +82,7 @@
   {
     "city": "Parsippany-Troy Hills",
     "name": "3535 Route 46 and Cherry Hill Road",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USNJ",
@@ -98,7 +98,7 @@
   {
     "city": "test",
     "name": "Test",
-    "certification": "",
+    "certification": "Platinum",
     "country": "AL",
     "building_status": "deactivated",
     "state": "AL",
@@ -114,7 +114,7 @@
   {
     "city": "Sherman Oaks",
     "name": "Hyde Park",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USCA",
@@ -130,7 +130,7 @@
   {
     "city": "Lafayette",
     "name": "Country View Estates I Dba Claystone At The Cross",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USIN",
@@ -146,7 +146,7 @@
   {
     "city": "CASSELBERRY",
     "name": "CASSELBERRY",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USFL",
@@ -162,7 +162,7 @@
   {
     "city": "Alexandria",
     "name": "Old Town Commons",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USVA",
@@ -178,7 +178,7 @@
   {
     "city": "Toledo",
     "name": "800 Division Street",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "OH",
@@ -194,7 +194,7 @@
   {
     "city": "test",
     "name": "test",
-    "certification": "",
+    "certification": "Platinum",
     "country": "AF",
     "building_status": "deactivated",
     "state": "AF",
@@ -210,7 +210,7 @@
   {
     "city": "DC",
     "name": "test_dev",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USAR",
@@ -226,7 +226,7 @@
   {
     "city": "Alexandria",
     "name": "Mount Vernon High School",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USVA",
@@ -242,7 +242,7 @@
   {
     "city": " ",
     "name": " ",
-    "certification": "",
+    "certification": "Platinum",
     "country": "AF",
     "building_status": "deactivated",
     "state": "AF",
@@ -258,7 +258,7 @@
   {
     "city": "123",
     "name": "Test",
-    "certification": "",
+    "certification": "Platinum",
     "country": "AF",
     "building_status": "deactivated",
     "state": "AF",
@@ -274,7 +274,7 @@
   {
     "city": "LANCASTER",
     "name": "ROHRERSTOWN",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USPA",
@@ -290,7 +290,7 @@
   {
     "city": "DC",
     "name": "test",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USAR",
@@ -306,7 +306,7 @@
   {
     "city": "Lock Haven",
     "name": "LHU Foundation - New Residence Hall",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USPA",
@@ -322,7 +322,7 @@
   {
     "city": " ",
     "name": " ",
-    "certification": "",
+    "certification": "Gold",
     "country": "AZ",
     "building_status": "deactivated",
     "state": "AZ",
@@ -338,7 +338,7 @@
   {
     "city": "Washington",
     "name": "project test3",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USWA",
@@ -354,7 +354,7 @@
   {
     "city": "Ashburn",
     "name": "Test Street",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "VA",
@@ -370,7 +370,7 @@
   {
     "city": "Alexandria",
     "name": "Old Town Commons",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USVA",
@@ -386,7 +386,7 @@
   {
     "city": "Doha",
     "name": "Ædifica |Espace de Travail et de Vie",
-    "certification": "",
+    "certification": "Gold",
     "country": "QA",
     "building_status": "payment_pending",
     "state": "QA",
@@ -402,7 +402,7 @@
   {
     "city": "Seattle",
     "name": "Washington Place",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "activated",
     "state": "USWA",
@@ -418,7 +418,7 @@
   {
     "city": "DC",
     "name": "test_909088",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USAR",
@@ -434,7 +434,7 @@
   {
     "city": "Atlanta",
     "name": "Georgia Tech Student Health Center",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USGA",
@@ -450,7 +450,7 @@
   {
     "city": "AnyCity",
     "name": "Test",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USAZ",
@@ -466,7 +466,7 @@
   {
     "city": "Brooklyn",
     "name": "test 2",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USNY",
@@ -482,7 +482,7 @@
   {
     "city": "Overland Park",
     "name": "Sunlighten",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "activated",
     "state": "USKS",
@@ -498,7 +498,7 @@
   {
     "city": "Test",
     "name": "Test",
-    "certification": "",
+    "certification": "Gold",
     "country": "AX",
     "building_status": "deactivated",
     "state": "AX",
@@ -514,7 +514,7 @@
   {
     "city": "Test",
     "name": "Test",
-    "certification": "",
+    "certification": "Gold",
     "country": "AX",
     "building_status": "deactivated",
     "state": "AX",
@@ -530,7 +530,7 @@
   {
     "city": "SANTA ROSA BEACH",
     "name": "REDFISH VILLAGE",
-    "certification": "",
+    "certification": "Gold",
     "country": "AW",
     "building_status": "payment_pending",
     "state": "AW",
@@ -546,7 +546,7 @@
   {
     "city": "Brooklyn",
     "name": "test-mk",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USNY",
@@ -562,7 +562,7 @@
   {
     "city": "Washington",
     "name": "Milkshake HQ",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "activated",
     "state": "USDC",
@@ -578,7 +578,7 @@
   {
     "city": "Washington",
     "name": "Test-scope",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "activated",
     "state": "USDC",
@@ -594,7 +594,7 @@
   {
     "city": "Test",
     "name": "Test1",
-    "certification": "",
+    "certification": "Gold",
     "country": "AX",
     "building_status": "deactivated",
     "state": "AX",
@@ -610,7 +610,7 @@
   {
     "city": "Tset",
     "name": "Test",
-    "certification": "",
+    "certification": "Gold",
     "country": "AX",
     "building_status": "deactivated",
     "state": "AX",
@@ -626,7 +626,7 @@
   {
     "city": "Washington",
     "name": "test-dev-admin",
-    "certification": "",
+    "certification": "Gold",
     "country": "US",
     "building_status": "deactivated",
     "state": "USAR",
@@ -642,7 +642,7 @@
   {
     "city": "Test",
     "name": "Test",
-    "certification": "",
+    "certification": "Gold",
     "country": "AL",
     "building_status": "deactivated",
     "state": "AL",
@@ -658,7 +658,7 @@
   {
     "city": "Bakersville",
     "name": "Test_Project",
-    "certification": "",
+    "certification": "Silver",
     "country": "US",
     "building_status": "deactivated",
     "state": "US",
@@ -674,7 +674,7 @@
   {
     "city": "Calgary",
     "name": "test-1623",
-    "certification": "",
+    "certification": "Silver",
     "country": "CA",
     "building_status": "deactivated",
     "state": "CAAB",
@@ -690,7 +690,7 @@
   {
     "city": "Test",
     "name": "Test",
-    "certification": "",
+    "certification": "Silver",
     "country": "AU",
     "building_status": "deactivated",
     "state": "AUQLD",
@@ -706,7 +706,7 @@
   {
     "city": "Test",
     "name": "Test",
-    "certification": "",
+    "certification": "Silver",
     "country": "AF",
     "building_status": "deactivated",
     "state": "AF",
@@ -722,7 +722,7 @@
   {
     "city": "Tset",
     "name": "Test",
-    "certification": "",
+    "certification": "Silver",
     "country": "AL",
     "building_status": "deactivated",
     "state": "AL",
@@ -738,7 +738,7 @@
   {
     "city": "TALLAHASSEE",
     "name": "DOWNTOWN TALLAHASSEE",
-    "certification": "",
+    "certification": "Silver",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USFL",
@@ -754,7 +754,7 @@
   {
     "city": "QUARRYVILLE",
     "name": "QUARRYVILLE",
-    "certification": "",
+    "certification": "Silver",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USPA",
@@ -770,7 +770,7 @@
   {
     "city": "Alexandria",
     "name": "Platinum Tower - Phase 1",
-    "certification": "",
+    "certification": "Silver",
     "country": "US",
     "building_status": "deactivated",
     "state": "USVA",
@@ -786,7 +786,7 @@
   {
     "city": "Alexandria",
     "name": "Virginia Place",
-    "certification": "",
+    "certification": "Silver",
     "country": "US",
     "building_status": "deactivated",
     "state": "USVA",

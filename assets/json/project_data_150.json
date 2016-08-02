@@ -2,7 +2,7 @@
     {
         "city": "BOOTHWYN",
         "name": "CHICHESTER",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -18,7 +18,7 @@
     {
         "city": "WAYNE",
         "name": "DEVON SQUARE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -34,7 +34,7 @@
     {
         "city": "PHILADELPHIA",
         "name": "ACADEMY PLAZA",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -50,7 +50,7 @@
     {
         "city": "LEBANON",
         "name": "LEBANON",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -66,7 +66,7 @@
     {
         "city": "Houston",
         "name": "Ashton Rice Village Apartments",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USTX",
@@ -82,7 +82,7 @@
     {
         "city": "PENSACOLA",
         "name": "SACRED HEART HOSPITAL",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -98,7 +98,7 @@
     {
         "city": "OCALA",
         "name": "SILVER SPRINGS",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -114,7 +114,7 @@
     {
         "city": "OCALA",
         "name": "SEVENTEENTH STREET",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -130,7 +130,7 @@
     {
         "city": "TALLAHASSEE",
         "name": "SOUTHWOOD",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -146,7 +146,7 @@
     {
         "city": "TALLAHASSEE",
         "name": "THARPE STREET",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -162,7 +162,7 @@
     {
         "city": "INDIALANTIC",
         "name": "INDIALANTIC",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USFL",
@@ -178,7 +178,7 @@
     {
         "city": "GULF BREEZE",
         "name": "TIGER POINT",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USFL",
@@ -194,7 +194,7 @@
     {
         "city": "PENSACOLA",
         "name": "UNIVERSITY - PENSACOLA",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -210,7 +210,7 @@
     {
         "city": "MIRAMAR BEACH",
         "name": "VILLAGE OF BAYTOWNE WHARF",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USFL",
@@ -226,7 +226,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "RIVERSIDE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -242,7 +242,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "BROAD STREET MB",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -258,7 +258,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "CYPRESS VILLAGE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -274,7 +274,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "REEDY",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USFL",
@@ -290,7 +290,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "REGENCY",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -306,7 +306,7 @@
     {
         "city": "BRANDON",
         "name": "BRANDON",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USFL",
@@ -322,7 +322,7 @@
     {
         "city": "TAMPA",
         "name": "CITRUS PARK",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -338,7 +338,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "WINDSOR COMMONS",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -354,7 +354,7 @@
     {
         "city": "JACKSONVILLE BEACH",
         "name": "SOUTH JACKSONVILLE BEACH",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -370,7 +370,7 @@
     {
         "city": "YULEE",
         "name": "SHOPPES AT AMELIA CONCOURSE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -386,7 +386,7 @@
     {
         "city": "DUNEDIN",
         "name": "MAIN STREET DUNEDIN",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -402,7 +402,7 @@
     {
         "city": "PLANT CITY",
         "name": "PLANT CITY",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -418,7 +418,7 @@
     {
         "city": "OLDSMAR",
         "name": "OLDSMAR",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -434,7 +434,7 @@
     {
         "city": "PALM HARBOR",
         "name": "PALM HARBOR",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -450,7 +450,7 @@
     {
         "city": "BRANDON",
         "name": "PROVIDENCE ROAD",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -466,7 +466,7 @@
     {
         "city": "TAMPA",
         "name": "RAINTREE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -482,7 +482,7 @@
     {
         "city": "PALM HARBOR",
         "name": "RIDGEMOOR",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -498,7 +498,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "SAN MARCO",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -514,7 +514,7 @@
     {
         "city": "SEBRING",
         "name": "DESOTO SQUARE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USFL",
@@ -530,7 +530,7 @@
     {
         "city": "Salida",
         "name": "Salida High School",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USCO",
@@ -546,7 +546,7 @@
     {
         "city": "WILKES BARRE",
         "name": "PLAINS TOWNSHIP",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USPA",
@@ -562,7 +562,7 @@
     {
         "city": "PLUMSTEADVILLE",
         "name": "PLUMSTEADVILLE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USPA",
@@ -578,7 +578,7 @@
     {
         "city": "PLYMOUTH MEETING",
         "name": "PLYMOUTH MEETING",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USPA",
@@ -594,7 +594,7 @@
     {
         "city": "RIDLEY PAR",
         "name": "RIDLEY PARK",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USPA",
@@ -610,7 +610,7 @@
     {
         "city": "ROBESONIA",
         "name": "ROBESONIA",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USPA",
@@ -626,7 +626,7 @@
     {
         "city": "SAINT DAVIDS",
         "name": "SAINT DAVIDS",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "deactivated",
         "state": "USPA",
@@ -642,7 +642,7 @@
     {
         "city": "Ventura",
         "name": "180 North Ashwood Avenue",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USCA",
@@ -658,7 +658,7 @@
     {
         "city": "Zellwood",
         "name": "Zellwood Elementary School",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -674,7 +674,7 @@
     {
         "city": "STROUDSBURG",
         "name": "STROUDSBURG",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USPA",
@@ -690,7 +690,7 @@
     {
         "city": "Miami",
         "name": "Brickell CityCentre",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -706,7 +706,7 @@
     {
         "city": "San Diego",
         "name": "AREE Nautilus Bldg 3 (3530)",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USCA",
@@ -722,7 +722,7 @@
     {
         "city": "Washington",
         "name": "Building 49",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USDC",
@@ -738,7 +738,7 @@
     {
         "city": "PHILADELPHIA",
         "name": "CITY LINE",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -754,7 +754,7 @@
     {
         "city": "Orlando",
         "name": "Academic Village Phase II",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -770,7 +770,7 @@
     {
         "city": "Camp Carroll",
         "name": "FY12 PN72650 302PN 1 1E UEPH",
-        "certification": "",
+        "certification": "Gold",
         "country": "KR",
         "building_status": "activated",
         "state": "KR14",
@@ -786,7 +786,7 @@
     {
         "city": "CHESTERBROOK",
         "name": "CHESTERBROOK",
-        "certification": "",
+        "certification": "Gold",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",

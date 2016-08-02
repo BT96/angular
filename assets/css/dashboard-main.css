@@ -537,7 +537,8 @@ input[type=text] {
 
 .checkboxCert {
     float: left;
-    top: -4px
+    top: -4px;
+    cursor: pointer;
 }
 
 .plus {

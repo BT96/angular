@@ -12,6 +12,11 @@ LEEDOnApp.controller('projectController', function($rootScope, $scope, $http, $o
         $ocLazyLoad.load(['assets/libs/js/countries_states.js?v=1.2']);
     });
 
+    $('#id_filters').on('click', function() {
+        $('#filterSelectDiv').toggle();
+        $(this).toggleClass('filterUpIcon');
+    });
+
     $scope.openNewProjectModal = function () {
         $('.publicForm').each(function()
         {

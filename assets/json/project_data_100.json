@@ -2,7 +2,7 @@
    {
     "city": "Washington",
     "name": "Test 0606",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "deactivated",
     "state": "USDC",
@@ -18,7 +18,7 @@
   {
     "city": "Delhi",
     "name": "TestScoreChange",
-    "certification": "",
+    "certification": "Platinum",
     "country": "AI",
     "building_status": "deactivated",
     "state": "AI",
@@ -34,7 +34,7 @@
   {
     "city": "Test",
     "name": "Test",
-    "certification": "",
+    "certification": "Platinum",
     "country": "DZ",
     "building_status": "deactivated",
     "state": "DZ",
@@ -50,7 +50,7 @@
   {
     "city": "Test",
     "name": "TestACP",
-    "certification": "",
+    "certification": "Platinum",
     "country": "AL",
     "building_status": "deactivated",
     "state": "AL",
@@ -66,7 +66,7 @@
   {
     "city": "TAMPA",
     "name": "CARROLLWOOD",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USFL",
@@ -82,7 +82,7 @@
   {
     "city": "Xenia",
     "name": "Xenia Community CSD New ES-3 (OSFC)",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USOH",
@@ -98,7 +98,7 @@
   {
     "city": "Marietta",
     "name": "West Cobb Marketplace",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USGA",
@@ -114,7 +114,7 @@
   {
     "city": "Oak Creek",
     "name": "MATC Oak Campus Sustainable Facilities",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USWI",
@@ -130,7 +130,7 @@
   {
     "city": "Washington",
     "name": "Letts Hall",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USDC",
@@ -146,7 +146,7 @@
   {
     "city": "Springfield",
     "name": "WMATA MTPD District II Police Station",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USVA",
@@ -162,7 +162,7 @@
   {
     "city": "Xenia",
     "name": "Xenia Community CSD New ES-2 (OSFC)",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USOH",
@@ -178,7 +178,7 @@
   {
     "city": "Mississauga",
     "name": "Polaris - 2680 Matheson",
-    "certification": "",
+    "certification": "Platinum",
     "country": "CA",
     "building_status": "payment_pending",
     "state": "CAON",
@@ -194,7 +194,7 @@
   {
     "city": "JACKSONVILLE",
     "name": "DEERWOOD",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USFL",
@@ -210,7 +210,7 @@
   {
     "city": "JACKSONVILLE",
     "name": "WEST NORMANDY",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USFL",
@@ -226,7 +226,7 @@
   {
     "city": "Mumbai",
     "name": "BDO HARIBHAKTI CONSULTING PVT LTD",
-    "certification": "",
+    "certification": "Platinum",
     "country": "IN",
     "building_status": "activated",
     "state": "IN13",
@@ -242,7 +242,7 @@
   {
     "city": "Sao Paulo",
     "name": "Edificio Faria Lima Financial Center",
-    "certification": "",
+    "certification": "Platinum",
     "country": "BR",
     "building_status": "activated",
     "state": "BRSP",
@@ -258,7 +258,7 @@
   {
     "city": "Bogota",
     "name": "Dersa Vestier y Cafeteria",
-    "certification": "",
+    "certification": "Platinum",
     "country": "CO",
     "building_status": "deactivated",
     "state": "CO11",
@@ -274,7 +274,7 @@
   {
     "city": "New York",
     "name": "BMW Manhattan",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USNY",
@@ -290,7 +290,7 @@
   {
     "city": "Charlotte",
     "name": "Charlotte BofA-Cisco",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USNC",
@@ -306,7 +306,7 @@
   {
     "city": "Houston",
     "name": "Sheldon ISD Elementary Number 5",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "agreement_pending",
     "state": "USTX",
@@ -322,7 +322,7 @@
   {
     "city": "Charlotte",
     "name": "US MEPCOM",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USNC",
@@ -338,7 +338,7 @@
   {
     "city": "Churchville",
     "name": "Bellemonte Farms",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USVA",
@@ -354,7 +354,7 @@
   {
     "city": "EMMAUS",
     "name": "EMMAUS",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USPA",
@@ -370,7 +370,7 @@
   {
     "city": "Cedar Falls",
     "name": "UNI Student Housing",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USIA",
@@ -386,7 +386,7 @@
   {
     "city": "Binghamton",
     "name": "Binghamton Univ Center of Excellence",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USNY",
@@ -402,7 +402,7 @@
   {
     "city": "Richardson",
     "name": "UTD Arts Technology Building",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USTX",
@@ -418,7 +418,7 @@
   {
     "city": "Naperville",
     "name": "Naperville",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USIL",
@@ -434,7 +434,7 @@
   {
     "city": "Holloman AFB",
     "name": "Crash Fire Rescue Station",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USNM",
@@ -450,7 +450,7 @@
   {
     "city": "Montgomery",
     "name": "Dalraida",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USAL",
@@ -466,7 +466,7 @@
   {
     "city": "Shanghai",
     "name": "Great Nature Hongqiao Business Park",
-    "certification": "",
+    "certification": "Platinum",
     "country": "CN",
     "building_status": "payment_pending",
     "state": "CN020",
@@ -482,7 +482,7 @@
   {
     "city": "Beirut",
     "name": "M1 Building",
-    "certification": "",
+    "certification": "Platinum",
     "country": "LB",
     "building_status": "activated",
     "state": "LB",
@@ -498,7 +498,7 @@
   {
     "city": "Mt Vernon",
     "name": "Lewis Hall",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USWA",
@@ -514,7 +514,7 @@
   {
     "city": "Golden",
     "name": "Marquez Hall",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USCO",
@@ -530,7 +530,7 @@
   {
     "city": "Xenia",
     "name": "Xenia Community CSD New ES-4 (OSFC)",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USOH",
@@ -546,7 +546,7 @@
   {
     "city": "Richmond",
     "name": "VCCS JSR Downtown Campus Renovation",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USVA",
@@ -562,7 +562,7 @@
   {
     "city": "Chula Vista",
     "name": "Southwestern College Building 480",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USCA",
@@ -578,7 +578,7 @@
   {
     "city": "Mequon",
     "name": "Mequon Campus Sustainable Facilities",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USWI",
@@ -594,7 +594,7 @@
   {
     "city": "Tempe",
     "name": "Carl Hayden Center for Sustainability",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USAZ",
@@ -610,7 +610,7 @@
   {
     "city": "Baltimore",
     "name": "Peter Fillat Architects Office",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USMD",
@@ -626,7 +626,7 @@
   {
     "city": "Arvada",
     "name": "MWCC Rocky Mtn District Office",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USCO",
@@ -642,7 +642,7 @@
   {
     "city": "Raleigh",
     "name": "NCSU CCSH - Building 1",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USNC",
@@ -658,7 +658,7 @@
   {
     "city": "HangZhou",
     "name": "HangZhou XiXi ShiDi ShengTai JiaYuan",
-    "certification": "",
+    "certification": "Platinum",
     "country": "CN",
     "building_status": "agreement_pending",
     "state": "CN130",
@@ -674,7 +674,7 @@
   {
     "city": "Washington",
     "name": "B3",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USDC",
@@ -690,7 +690,7 @@
   {
     "city": "Coshocton",
     "name": "Coshocton CSD New PK-6 (OSFC)",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USOH",
@@ -706,7 +706,7 @@
   {
     "city": "Camp Carroll",
     "name": "FY12 PN72650 TEMF",
-    "certification": "",
+    "certification": "Platinum",
     "country": "KR",
     "building_status": "payment_pending",
     "state": "KR14",
@@ -722,7 +722,7 @@
   {
     "city": "Hyattsville",
     "name": "WMATA Landover Paint Booth",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USMD",
@@ -738,7 +738,7 @@
   {
     "city": "Los Angeles",
     "name": "BROAD MUSEUM AND GARAGE",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "activated",
     "state": "USCA",
@@ -754,7 +754,7 @@
   {
     "city": "Yongin",
     "name": "KOLON  e plus pilot",
-    "certification": "",
+    "certification": "Platinum",
     "country": "KR",
     "building_status": "activated",
     "state": "KR09",
@@ -770,7 +770,7 @@
   {
     "city": "Washington DC",
     "name": "GSA: 300 E Street SW",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USDC",
@@ -786,7 +786,7 @@
   {
     "city": "PHILADELPHIA",
     "name": "CHESTNUT HILL",
-    "certification": "",
+    "certification": "Platinum",
     "country": "US",
     "building_status": "payment_pending",
     "state": "USPA",

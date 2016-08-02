@@ -2,7 +2,7 @@
     {
         "city": "TAMPA",
         "name": "GUNN HWY",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -18,7 +18,7 @@
     {
         "city": "Bethesda",
         "name": "Two Rockledge Center",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USMD",
@@ -34,7 +34,7 @@
     {
         "city": "Dubai",
         "name": "DKA Office Building",
-        "certification": "",
+        "certification": "Silver",
         "country": "AE",
         "building_status": "activated",
         "state": "AE",
@@ -50,7 +50,7 @@
     {
         "city": "Front Royal",
         "name": "Mason - CSP - Residences",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USVA",
@@ -66,7 +66,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "SAN JOSE",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -82,7 +82,7 @@
     {
         "city": "PHILADELPHIA",
         "name": "COMMERCE SQUARE",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -98,7 +98,7 @@
     {
         "city": "APOPKA",
         "name": "HUNT CLUB",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -114,7 +114,7 @@
     {
         "city": "Orlando",
         "name": "Classroom II",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -130,7 +130,7 @@
     {
         "city": "Chattanooga",
         "name": "Chambliss Bahner Stophel Law Offices",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USTN",
@@ -146,7 +146,7 @@
     {
         "city": "Madison",
         "name": "Madison County Memorial Hospital",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -162,7 +162,7 @@
     {
         "city": "PHILADELPHIA",
         "name": "CHESTNUT and 34TH",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -178,7 +178,7 @@
     {
         "city": "QUAKERTOWN",
         "name": "QUAKERTOWN VILLAGE",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -194,7 +194,7 @@
     {
         "city": "READING",
         "name": "HAMPDEN",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -210,7 +210,7 @@
     {
         "city": "Los Angeles",
         "name": "UCLA Landfair Apartments",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USCA",
@@ -226,7 +226,7 @@
     {
         "city": "PAOLI",
         "name": "PAOLI",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -242,7 +242,7 @@
     {
         "city": "PHILADELPHIA",
         "name": "FISHTOWN",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -258,7 +258,7 @@
     {
         "city": "JACKSONVILLE",
         "name": "SOUTH MANDARIN",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -274,7 +274,7 @@
     {
         "city": "TAMPA",
         "name": "DALE MABRY",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -290,7 +290,7 @@
     {
         "city": "Woodbridge",
         "name": "Potomac River Wild Life Refuge",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USVA",
@@ -306,7 +306,7 @@
     {
         "city": "Ft Myers",
         "name": "Park Royal Psychiatric Hospital",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -322,7 +322,7 @@
     {
         "city": "CENTER VALLEY",
         "name": "PROMENADE SHOPS AT SAUCON VALLEY",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -338,7 +338,7 @@
     {
         "city": "Russelsheim",
         "name": "Frankfurt 3",
-        "certification": "",
+        "certification": "Silver",
         "country": "DE",
         "building_status": "activated",
         "state": "DE06",
@@ -354,7 +354,7 @@
     {
         "city": "Warsaw",
         "name": "Platinium BIS-B4",
-        "certification": "",
+        "certification": "Silver",
         "country": "PL",
         "building_status": "payment_pending",
         "state": "PL45",
@@ -370,7 +370,7 @@
     {
         "city": "TAMPA",
         "name": "BRUCE B DOWNS",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
@@ -386,7 +386,7 @@
     {
         "city": "FLOURTOWN",
         "name": "FLOURTOWN",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -402,7 +402,7 @@
     {
         "city": "Front Royal",
         "name": "Mason - CSP - Dining",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USVA",
@@ -418,7 +418,7 @@
     {
         "city": "SUN CITY CENTER",
         "name": "KINGS POINT MANOR",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -434,7 +434,7 @@
     {
         "city": "PARADISE",
         "name": "PARADISE",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -450,7 +450,7 @@
     {
         "city": "PHILADELPHIA",
         "name": "ARAMINGO",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -466,7 +466,7 @@
     {
         "city": "NORRISTOWN",
         "name": "AUDUBON",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -482,7 +482,7 @@
     {
         "city": "CHESTER",
         "name": "CHESTER",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -498,7 +498,7 @@
     {
         "city": "DOYLESTOWN",
         "name": "CROSS KEYS",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -514,7 +514,7 @@
     {
         "city": "HUNTINGDON VALLEY",
         "name": "DAVISVILLE",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -530,7 +530,7 @@
     {
         "city": "Jersey City",
         "name": "30 Hudson",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USNJ",
@@ -546,7 +546,7 @@
     {
         "city": "GLENOLDEN",
         "name": "GLENOLDEN",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -562,7 +562,7 @@
     {
         "city": "The Woodlands",
         "name": "St Lukes Medical Arts Center III",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USTX",
@@ -578,7 +578,7 @@
     {
         "city": "BRANDON",
         "name": "LAKE BRANDON",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USFL",
@@ -594,7 +594,7 @@
     {
         "city": "LANCASTER",
         "name": "BRIDGEPORT",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -610,7 +610,7 @@
     {
         "city": "ALLENTOWN",
         "name": "HAMILTON MALL",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -626,7 +626,7 @@
     {
         "city": "KING OF PRUSSIA",
         "name": "DEKALB PIKE",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USPA",
@@ -642,7 +642,7 @@
     {
         "city": "Wyoming",
         "name": "Family Fare Metro Village Supermarket",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USMI",
@@ -658,7 +658,7 @@
     {
         "city": "Front Royal",
         "name": "Mason - CSP - Master Site",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "payment_pending",
         "state": "USVA",
@@ -674,7 +674,7 @@
     {
         "city": "BOYERTOWN",
         "name": "BOYERTOWN EAST",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -690,7 +690,7 @@
     {
         "city": "Shanghai",
         "name": "Lendlease China Office Renovation",
-        "certification": "",
+        "certification": "Silver",
         "country": "CN",
         "building_status": "payment_pending",
         "state": "CN020",
@@ -706,7 +706,7 @@
     {
         "city": "Shengyang",
         "name": "Shangri-La Hotel Shenyang",
-        "certification": "",
+        "certification": "Silver",
         "country": "CN",
         "building_status": "payment_pending",
         "state": "CN070",
@@ -722,7 +722,7 @@
     {
         "city": "POTTSTOWN",
         "name": "POTTSTOWN EAST",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "agreement_pending",
         "state": "USPA",
@@ -738,7 +738,7 @@
     {
         "city": "Long Beach",
         "name": "The Art Exchange",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USCA",
@@ -754,7 +754,7 @@
     {
         "city": "Philadelphia",
         "name": "Center for Culinary Enterprises",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USPA",
@@ -770,7 +770,7 @@
     {
         "city": "TAIPEI",
         "name": "SINOTECH RESEARCH and DEVELOPMENT BUILD",
-        "certification": "",
+        "certification": "Silver",
         "country": "TW",
         "building_status": "payment_pending",
         "state": "TWTPE",
@@ -786,7 +786,7 @@
     {
         "city": "OCALA",
         "name": "CANOPY OAKS",
-        "certification": "",
+        "certification": "Silver",
         "country": "US",
         "building_status": "activated",
         "state": "USFL",
