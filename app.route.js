@@ -1,14 +1,4 @@
-var LEEDOnApp = angular.module('LEEDOnApp', ['ui.router', 'infinite-scroll', 'oc.lazyLoad']);
-
-//Appcues code starts
-// LEEDOnApp.run(function($rootScope, $window) {
-//     $rootScope.$on('$locationChangeSuccess', function() {
-//         if ($window.Appcues) {
-//             $window.Appcues.start();
-//         }
-//     });
-// });
-//Appcues code ends
+var LEEDOnApp = angular.module('LEEDOnApp', ['ui.router', 'infinite-scroll', 'oc.lazyLoad', 'ngAnimate']);
 
 // configure our routes
 LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) {
@@ -72,6 +62,48 @@ LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) 
         templateUrl: "apps/components/dashboard/strategies/strategiesView.html",
         controller : "strategiesController"
     })
+
+
+
+    .state("dashboardState.strategiesState.certificationEligibilityState", {
+        url: "/certification-eligibility",
+        views: {
+                'certificationModal@dashboardState': {
+                    templateUrl: "apps/components/dashboard/strategies/certification/eligibility/certificationEligibility.html",
+                    controller: "certificationEligibilityController"
+            }
+        }
+    })
+    .state("dashboardState.strategiesState.certificationDocumentationState", {
+        url: "/certification-documentation",
+        views: {
+                'certificationModal@dashboardState': {
+                    templateUrl: "apps/components/dashboard/strategies/certification/documentation/certificationDocumentation.html",
+                    controller : "certificationDocumentationController"
+            }
+        }
+    })
+    .state("dashboardState.strategiesState.certificationPaymentState", {
+        url: "/certification-payment",
+        views: {
+                'certificationModal@dashboardState': {
+                    templateUrl: "apps/components/dashboard/strategies/certification/payment/certificationPayment.html",
+                    controller : "certificationPaymentController"
+            }
+        }
+    })
+    .state("dashboardState.strategiesState.certificationSubmitState", {
+        url: "/certification-submit",
+        views: {
+                'certificationModal@dashboardState': {
+                    templateUrl: "apps/components/dashboard/strategies/certification/submit/certificationSubmit.html",
+                    controller : "certificationSubmitController"
+            }
+        }
+    })
+
+
+
     .state("dashboardState.analysisState", {
         url: "/analysis",
         templateUrl: "apps/components/dashboard/analysis/analysisView.html",

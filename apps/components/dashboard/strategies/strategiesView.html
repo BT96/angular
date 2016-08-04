@@ -870,21 +870,26 @@
 </div>
 <div ng-if="leed_id != 1000000117">
     <div class="strategies_container accordion">
-        <div class="header_strategies" style="display: block; left: 104.906px;">
-            <!--
-                <div class="heading6 gotham pointer">Strategies</div>-->
-            <div id="elements_leed_points">
-                <span id="elements_scoring_text">LEED points</span> 
-                <span id="leed_score_progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-                    <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 0%;"></div>
-                </span>
-                <span id="project_total_points"><b>0</b>/116</span>
+        <div class="header_strategies" style="display: block; left: 100px;">
+            <div id="initiate_certification_process">
+                <span class="btnBlue" ui-sref=".certificationEligibilityState">Certify</span>
             </div>
-            <div class="btn-group" id="intent-filter">
+            <div id="certification_readiness">
+                <span id="elements_scoring_text">Prerequisites Documented</span>
+                <!--Prerequisites Achieved (asked by Megan)-->
+                <span id="readiness_progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div class="ui-progressbar-value ui-widget-header ui-corner-left ui-corner-right" style="width: 100%;"></div></span>
+                <span id="readiness_point_tally"><b>10</b>/10</span>
+            </div>
+            <div id="elements_leed_points" style="display: none;">
+                <span id="elements_scoring_text">LEED points</span>
+                <span id="leed_score_progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 0%;"></div></span>
+                <span id="project_total_points"><b>0</b>/28</span>
+            </div>
+            <div class="btn-group" id="intent-filter" style="display: none;">
                 <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <span class="filter-selected-text">All</span>
-                <i class="fa fa-angle-down"></i>
-                </button>
+                        <span class="filter-selected-text">All</span>
+                        <i class="fa fa-angle-down"></i>
+                    </button>
                 <ul class="dropdown-menu" role="menu">
                     <li class="all-selected selected-filter">
                         <div>All</div>
@@ -906,12 +911,13 @@
                     </li>
                 </ul>
             </div>
-            <div id="add_custom_strategy">
+            <div id="add_custom_strategy" style="display: none;">
                 <span id="add_custom_strategy_lbl">Add strategies</span>
-                <span id="add_custom_strategy_icon">+</span> 
+                <span id="add_custom_strategy_icon">+</span>
                 <!--
                     <i class="fa fa-plus"></i>-->
             </div>
+
             <hr id="header_strategies_divider">
         </div>
         <div id="strategy_content" style="margin-top: 285px;">

@@ -143,7 +143,7 @@
 <div class="navigation-tab-header buildingInfo showOverview" style="display: block;">
     <div class="navigation-tab input_nav input_nav_active" ui-sref-active="active" ui-sref=".scoreState" data-page="score">Overview</div>
     <div class="navigation-tab input_nav" data-page="data_input" ui-sref-active="active" ui-sref=".dataState">Inputs</div>
-    <!-- <div class="navigation-tab input_nav" data-page="strategy_input" ui-sref-active="active" ui-sref=".strategiesState">Strategies</div> -->
+    <div class="navigation-tab input_nav" data-page="strategy_input" ui-sref-active="active" ui-sref=".strategiesState">Strategies</div>
     <div class="navigation-tab input_nav" data-page="data_scorecard" style="display: none;" ui-sref-active="active" ui-sref=".scorecardState">Scorecard</div>
     <div class="navigation-tab input_nav" data-page="data_analysis" ui-sref-active="active" ui-sref=".analysisState">Analysis</div>
     <div class="navigation-tab input_nav" data-page="manage" ui-sref-active="active" ui-sref=".manageState">Manage</div>
@@ -593,6 +593,45 @@
                 <div class="mt25 w90p floatl">
                     <input type="button" class="mr15 btn btnGreen btn_top btnFixWidth submit gotham" data-dismiss="modal" value="Save" id="save_team"></input>
                     <input type="button" class="btn btn-default btnOutline btn_bottom cancel gotham" data-dismiss="modal" value="Cancel"></input>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade gothambook" id="leed_certification_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <!-- Preloader -->
+            <div id="preloader_activationFlow" class="hide">
+                <div id="status_activationFlow" class="hide">
+                    <i class="payment_loading_gif"></i>
+                </div>
+            </div>
+            <!-- Preloader ends -->
+            <div class="modal-header">
+                <button aria-hidden="true" data-dismiss="modal" class="close add_custom_strategy_close" type="button">×</button>
+                <div class="modal-title" style="font-weight:bold;"></div>
+                <ol class="wizard-progress clearfix">
+                    <li id="li-eligibility">
+                        <span class="visuallyhidden">Step </span><span class="step-num">1</span>
+                        <span class="step-name">Eligibility</span>
+                    </li>
+                    <li id="li-documentation">
+                        <span class="visuallyhidden">Step </span><span class="step-num">2</span>
+                        <span class="step-name">Documentation</span>
+                    </li>
+                    <li id="li-payment">
+                        <span class="visuallyhidden">Step </span><span class="step-num">3</span>
+                        <span class="step-name">Payment</span>
+                    </li>
+                    <li id="li-submit">
+                        <span class="visuallyhidden">Step </span><span class="step-num">4</span>
+                        <span class="step-name">Submit</span>
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-body modal_padding">
+                <div class="tab-content" ui-view="certificationModal" style="clear: left;">
                 </div>
             </div>
         </div>

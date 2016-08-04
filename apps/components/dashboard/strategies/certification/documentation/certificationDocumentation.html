@@ -1,0 +1,55 @@
+<div id="certification-documentation" class="tab-pane" style="display: block;">
+    <p class="tab-content-title">Upload Documentation</p>
+
+    <div id="energy_utiltiy_bill">
+        <div class="energy_icon category_type" category-type="energy">
+            <p class="energy_cat_title">Energy Utility Bills</p>
+        </div>
+        <div class="elements_questionnaire_upload energy_utiltiy_bill_upload"><span class="btn btn-success fileinput-button"><i class="fa fa-plus"></i><span>Add Document</span><input class="elements_file_data_new upload" data-billtype="energy_bills" name="energy_utiltiy_bill" type="file"></span>
+        </div>
+    </div>
+
+    <div id="water_utiltiy_bill">
+        <div class="water_icon category_type" category-type="water">
+            <p class="water_cat_title">Water Utility Bills</p>
+        </div>
+
+        <div class="elements_questionnaire_upload water_utiltiy_bill_upload"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-billtype="water_bills" name="water_utiltiy_bill" type="file"></span>
+        </div>
+    </div>
+
+    <div id="waste_utiltiy_bill">
+        <div class="waste_icon category_type" category-type="waste">
+            <p class="waste_cat_title">Waste stream analysis report</p>
+        </div>
+
+        <div class="elements_questionnaire_upload waste_utiltiy_bill_upload"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-billtype="waste_bills" name="waste_utiltiy_bill" type="file"></span>
+        </div>
+    </div>
+
+    <div id="humanexperience_utiltiy_bill">
+        <div class="humanexperience_icon category_type" category-type="humanexperience">
+            <p class="humanexperience_cat_title">Human Experience CO2 and/or TVOC analysis report</p>
+        </div>
+
+        <div class="elements_questionnaire_upload humanexperience_utiltiy_bill_upload"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-billtype="co2_voc_analysis_report" name="humanexperience_utiltiy_bill" type="file"></span>
+        </div>
+    </div>
+
+    <div id="payment-step-button-div" style="padding-top: 30px;margin-left: 25px;margin-right: 25px;">
+        <div id="next-payment-div">
+            <p>Next:</p>
+            <a ui-sref="dashboardState.strategiesState.certificationPaymentState" id="move-to-payment" class="waves-effect waves-light btn btn-green">
+                <p>Payment</p>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        <div id="cancel-next-payment-div">
+            <a data-dismiss="modal" class="waves-effect waves-light btn btn-white">Cancel</a>
+        </div>
+    </div>
+    <div class="back_to_last_step">
+        <span> Or</span>
+        <a ui-sref="dashboardState.strategiesState.certificationEligibilityState" class="back_to_eligibility">Back to Last Step</a>
+    </div>
+</div>

@@ -187,9 +187,9 @@
 }
 
 .btnBlue:hover, .btnBlue:focus {
-  background: #38869B;
+  /*background: #38869B;
   border: solid 1px #38869B;
-  color: #fff;
+  color: #fff;*/
 }
 
 .btnOutline:hover {

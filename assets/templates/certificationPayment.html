@@ -1,0 +1,168 @@
+<div id="certification-payment" class="tab-pane" style="display: block;">
+    <div class="pull-left certification_payment_info" style="border-right: 1px solid rgba(128, 128, 128, 0.25); padding-left: 27px">
+
+        <!--
+                                <div class="mt25">
+
+                                    <div class="col_head">
+                                        <h4 class="h4_dash">PAY BY</h4>
+                                    </div>
+                                    <div class="payment_option_btns">
+                                        <div class="payby_payment">
+                                            <input class="rdio rdioInput" type="radio" value="card" id="pay_card">                
+                                            <label class="attribsRadioButton" for="rdio">
+                                                <img class="pay_mode" value="card" id="card" src="assets/images/radioFull.png" alt="" width="20" height="20">
+                                            </label>
+                                            <span id="cc" class="radio_style">CREDIT CARD</span>
+                                        </div>
+                                        <div class="payby_payment">
+                                            <input class="rdio rdioInput" type="radio" value="check" id="pay_check">                
+                                            <label class="attribsRadioButton" for="rdio">
+                                                <img class="pay_mode" value="check" id="check" src="assets/images/radioEmpty.png" alt="" width="20" height="20">
+                                            </label>
+                                          <span id="chq" class="radio_style">CHECK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+
+        <div id="card_details_container">
+            <div class="">
+                <div class="col_head">
+                    <h4 class="h4_dash_certify mt0">PAY BY</h4></div>
+                <div class="payment_option_btns">
+                    <div class="payby_payment">
+                        <input class="rdio rdioInput" type="radio" value="card" id="pay_card">
+                        <label class="attribsRadioButton" for="rdio">
+                                                      <img class="pay_mode_certify cursor_pointer" value="card" id="card" src="assets/images/radioFull.png" alt="" width="20" height="20">
+                                                      </label>
+                        <span id="cc" class="radio_style" style="font-weight: bold;">CREDIT CARD</span>
+                    </div>
+                    <div class="payby_payment">
+                        <input class="rdio rdioInput" type="radio" value="check" id="pay_check">
+                        <label class="attribsRadioButton" for="rdio">
+                                                      <img class="pay_mode_certify cursor_pointer" value="check" id="check" src="assets/images/radioEmpty.png" alt="" width="20" height="20">
+                                                      </label>
+                        <span id="chq" class="radio_style" style="font-weight: normal;">CHECK</span>
+                    </div>
+                </div>
+            </div>
+            <div class="instruction_section" style="display: none;">
+                <div class="col_head mb25">
+                    <h4 class="mt50 h4_dash_certify"> INSTRUCTIONS </h4></div>
+                <div class="">
+                    <p>Upon completing the billing form below and clicking Submit Payment, an invoice will be generated and emailed to the bill-to-party email address listed below.</p>
+                </div>
+                <div class="">
+                    <p>Mail the invoice and check the following address:</p>
+                    <p>Green Building Certification Institute<br>P.O. Box 82964<br>Philadelphia, PA 19182-2964</p>
+                </div>
+                <div class="">
+                    <p><b>To avoid delays inprocessing, please write the invoice number on the check.</b></p>
+                </div>
+                <div class="">
+                    <p>Once GBCI receives the check, <b>please allow 2-3 business days for processing.</b></p>
+                </div>
+                <div class="">
+                    <p>At any time, you may choose to pay this invoice by credit card by logging into your account at usgbc.org and accessing this order via your order history.</p>
+                </div>
+            </div>
+            <div class="mt25 pt20 card_type">
+                <div class="col_head">
+                    <h4 class="h4_dash">CARD TYPES</h4>
+                </div>
+                <div class="input-group ml2p5per card_tbl">
+                    <table class="table mb0" id="table1">
+                        <tbody>
+                            <tr>
+                                <td class="card_type_tbl pt0 bt0"><img src="assets/images/mastercard.png" class="mastercard_img active" value="MASTERCARD" width="30px" style="opacity: 0.3;"></td>
+                                <td class="card_type_tbl pt0 bt0"><img src="assets/images/visa.png" class="visa_img active" value="VISA" width="30px" style="opacity: 0.3;"></td>
+                                <td class="card_type_tbl pt0 bt0"><img src="assets/images/discover.png" class="discover_img active" value="DISCOVER" width="30px" style="opacity: 0.3;"></td>
+                                <td class="card_type_tbl pt0 bt0"><img src="assets/images/amex.png" class="amex_img active" value="AMERICAN EXPRESS" width="30px" style="opacity: 0.3;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <tr>
+                    <td class="DataInterceptCreditCardNumber" style="display: none;">Credit Card Number</td>
+                    <td valign="top" class="DataInterceptCreditCardNumber payment_ul mt5">
+                        <div class="col_head mt25">
+                            <h4 class="h4_dash">CARD DETAILS</h4></div><input id="Paymetric_CreditCardNumber" name="Paymetric_CreditCardNumber" class="card_number inblock form-control_payment pressEnter credit" tabindex="1" placeholder="Credit Card Number" style="box-shadow: none;"></td>
+                </tr>
+                <tr>
+                    <ul class="payment_ul"><select id="month" name="month_paymetric" class="paynow_select paynow_month pressEnter form-control_payment credit" tabindex="2" style="width: 35%; margin-top: 16px; height:45px;"><option value="" disabled="" selected="">Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select><select id="year" name="year_paymetric" class=" paymetric_year paynow_select ml10 pressEnter form-control_payment credit" tabindex="3" style="width: 30%; margin-left: 5%; margin-top: 16px;"> <option value="" disabled="" selected="">Year</option><option value="10">2015</option><option value="9">2016</option><option value="8">2017</option><option value="7">2018</option><option value="6">2019</option><option value="5">2020</option><option value="4">2021</option><option value="3">2022</option><option value="2">2023</option><option value="1">2024</option></select></ul>
+                </tr>
+                <td class="DataInterceptCVV" style="margin-top: 17px; position: initial;"><input id="Paymetric_CVV" name="Paymetric_CVV" size="4" class="paymetric_cvv ml10 border_cvv form-control_payment pressEnter credit" tabindex="4" placeholder="CVV" style="margin-top: -55px; margin-right: 6%; width: 19%;"><a class="inblock border_help" id="cvv_help" data-placement="right" rel="popover" data-img="assets/images/cvv_help.jpg" data-original-title="" title="">?</a></td>
+            </div>
+            <div>
+                <div class="col_head pt10">
+                    <h4 class="h4_dash_certify">BILLING DETAILS</h4></div>
+            </div>
+            <div class="billing_details">
+                <div class="mt10 mb25">
+                    <form id="billing_details_form">
+                        <ul class="payment_ul_certify">
+                            <input id="paynow_f_name" class="check checkS inblock_certify fixwidth_input_certify billing form-control_payment valid paynow_f_name pressEnter" name="bill_to_party_firstname" placeholder="First Name" required="" tabindex="4">
+                            <input id="paynow_l_name" class="check checkS inblock_certify fixwidth_input_certify billing form-control_payment valid paynow_l_name_certify pressEnter" name="bill_to_party_lastname" placeholder="Last Name" required="" tabindex="5">
+                        </ul>
+                        <ul class="payment_ul_certify">
+                            <input id="paynow_add" class="billing check checkS inblock_certify address_input_certify form-control_payment valid paynow_add pressEnter" name="address" placeholder="Address" required="" tabindex="6">
+                        </ul>
+                        <ul class="payment_ul_certify">
+                            <input id="paynow_city" class="billing check checkS inblock_certify valid paynow_city form-control_payment pressEnter fixwidth_input_certify" name="city" placeholder="City" required="" tabindex="7">
+                            <input id="paynow_po_code" class="billing check checkS inblock_certify form-control_payment valid paynow_po_code ml10 pressEnter fixwidth_input_certify" name="postal_code" placeholder="Postal Code" required="" tabindex="8">
+                        </ul>
+
+                        <ul class="payment_ul_certify">
+                            <select id="country1" class="billing inblock_certify check checkS fixwidth_input_certify form-control_payment valid country inblock_sel pressEnter" name="country" placeholder="Country" required="" tabindex="9" onchange="print_state('state1', this.value);"><option value="">Select Country</option><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Saint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Curaçao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="CD">Democratic Republic of the Congo</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="TL">East Timor</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island and McDonald Islands</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="CG">Republic of the Congo</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barthélemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="CS">Serbia and Montenegro</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="VI">U.S. Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+                            <select id="state1" class="billing inblock_certify fixwidth_input_certify check checkS form-control_payment valid state inblock_sel ml10 pressEnter" name="state" placeholder="State" tabindex="10" required=""><option value="">Select State</option></select>
+                        </ul>
+
+                        <ul class="payment_ul_certify">
+                            <input id="paynow_email" class="billing inblock_certify fixwidth_input_certify check checkS form-control_payment valid paynow_email pressEnter" name="bill_to_party_email" placeholder="Email" required="" tabindex="11"><input id="paynow_phone" class="billing inblock_certify fixwidth_input_certify form-control_payment check checkS valid paynow_phone ml10 pressEnter" name="bill_to_party_phone" placeholder="Phone" required="" tabindex="12">
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pull-right certification-payment-receipt">
+
+        <div id="payment-receipt-title">
+            <span class="tab-content-title">Your Receipt</span>
+        </div>
+
+        <div id="cert-fee-div">
+            <p id="cert-fee-title">LEED Certification Fees</p>
+            <p id="cert-fee">
+                $<span>4250.00</span>
+            </p>
+        </div>
+
+        <div id="total-due-div">
+            <p id="total-due-title">Total Due Today</p>
+            <p id="total-due">
+                $<span>4250.00</span>
+            </p>
+        </div>
+
+    </div>
+    <div id="payment-step-button-div" style="padding-top: 30px;margin-left: 25px;margin-right: 25px;clear: both;">
+        <div id="next-payment-div">
+            <p>Next:</p>
+            <a id="move-to-submit" class="waves-effect waves-light btn btn-green">
+                <p>Submit</p>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        <div id="cancel-next-payment-div">
+            <a data-dismiss="modal" class="waves-effect waves-light btn btn-white">Cancel</a>
+        </div>
+    </div>
+    <div class="back_to_last_step" style="clear: both;">
+        <span> Or</span>
+        <a id="back-to-documentation">Back to Last Step</a>
+    </div>
+</div>
