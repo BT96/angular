@@ -3709,10 +3709,10 @@ li.not-applicable .collapsible-header{
 
 .wizard-progress li {
     float: left;
-    margin-right: 35px;
+    margin-right: -17px;
     text-align: center;
     position: relative;
-    width: 175px;
+    width: 270px;
 }
 
 .wizard-progress .step-name {
@@ -3720,7 +3720,7 @@ li.not-applicable .collapsible-header{
     height: 32px;
     vertical-align: bottom;
     text-align: center;
-    width: 100px;
+    width: 203px;
     color:#949EAB 100%;
     font-family: 'GothamMedium';
     font-size: 14px;
@@ -3750,10 +3750,10 @@ li.not-applicable .collapsible-header{
     display: block;
     background: #C6D2E1;
     height: 4px;
-    width: 196px;
+    width: 236px;
     position: absolute;
     bottom: 39px;
-    left: 60px;
+    left: 113px;
 }
 
 .wizard-progress li:last-of-type .step-num:after {
@@ -3762,7 +3762,7 @@ li.not-applicable .collapsible-header{
 
 .wizard-progress li:last-of-type{
 	margin-right: 0px;
-    width: 140px;
+    width: 240px;
 }
 
 .wizard-progress li:last-of-type .step-num{

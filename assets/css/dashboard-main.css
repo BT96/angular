@@ -3230,7 +3230,7 @@ button.otherfuels_manual_meter {
 
 .build_setup_input,input[type=email] {
     height: 45px !important;
-    background-color: #f1f1f1 !important;
+    background-color: #fff !important;
     box-shadow: none !important
 }
 
@@ -3360,7 +3360,7 @@ button.other_bg {
 }
 
 .energy_manual_drp .caret,.other_fuel_drp .caret,.water_manual_drp .caret {
-    margin-right: -22px
+    /*margin-right: -22px*/
 }
 
 .other_fuel_drplist {
@@ -3422,7 +3422,7 @@ button.other_bg {
 
 .energy_manual_drp,.other_fuel_drp,.water_manual_drp {
     min-width: 625px !important;
-    background: #f1f1f1;
+    background: #fff;
     text-align: left !important;
     border-radius: 5px;
     font-size: 14px;
@@ -4129,7 +4129,7 @@ select.dist_select::-ms-expand {
 
 .div_center {
     position: absolute;
-    top: 175px;
+    top: 170px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -6975,4 +6975,389 @@ button:focus {outline:0 !important;}
 
 .containerDiv .input_nav.active, .containerDiv .input_nav:hover {
     height: 50px !important;
+}
+
+.performancePeriodWrapper 
+{
+    width: 60%;
+    padding: 15px 0px 0px 30px;
+}
+
+.headingPlaque 
+{
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url('../../assets/images/blackPlaque.png');
+    background-repeat: no-repeat;
+    height: 51px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.performanceTable 
+{
+    margin-top: 25px;
+}
+
+.performanceLabel
+{
+    float: left;
+}
+
+.performanceLabel.periodLabel
+{
+    width: 60%;
+}
+
+.performanceLabel.statusLabel 
+{
+    width: 20%;
+}
+
+.performanceLabel.levelLabel
+{
+    width: 7%;
+}
+
+.performanceHeader .statusLabel, .performanceHeader .levelLabel
+{
+    color: lightgrey;
+}
+
+.dataRow 
+{
+    padding: 5px 0px 5px 0px;
+}
+
+.performanceRows 
+{
+    border-bottom: 1px solid lightgrey;
+    float: left;
+    width: 100%;
+}
+
+.performanceHeader 
+{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.blackPlaqueLabel 
+{
+    background-image: url('../../assets/images/blackPlaque.png');
+    float: left;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 45px;
+    background-size: 45px 45px;
+}
+
+.dataRow .periodLabel, .dataRow .statusLabel
+{
+    margin-top: 16px;
+}
+
+.plaqueLabel 
+{
+    float: left;
+    font-size: 9px;
+    margin-left: 7px;
+    color: darkgrey;
+}
+
+.submitReview
+{
+    background: #95BF58;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fontSize19
+{
+    font-size: 19px;
+}
+
+.fontSize17
+{
+    font-size: 17px;
+}
+
+.mb5
+{
+    margin-bottom: 5px;
+}
+
+.fontSize13
+{
+    font-size: 13px;
+}
+
+.uploadSection 
+{
+    padding: 20px 0px 20px 0px;
+    border-bottom: 2px solid #f1f1f1;
+    float: left;
+    width: 100%;
+}
+
+.uploadBill, .uploadAdditional
+{
+    margin-top: 20px;
+    float: left;
+    color: white;
+    background-color: rgb(148,158,171);
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.uploadBill:hover
+{
+    background-color: lightgrey;
+}
+
+.uploadAdditional 
+{
+    margin-top: 3px;
+    margin-left: 35px;
+}
+
+.billIcon 
+{
+    margin-right: 10px;
+    color: white;
+}
+
+.uploadHeader 
+{
+    padding: 0px 0px 5px 30px;
+    background-repeat: no-repeat;
+}
+
+.uploadSection[type=energy] .uploadHeader
+{
+    background-image: url("../../assets/images/energy_icon.png");
+    background-size: 18px 24px;
+}
+
+.uploadSection[type=water] .uploadHeader
+{
+    background-image: url("../../assets/images/water_icon.png");
+    background-size: 18px 24px;
+}
+
+.uploadSection[type=waste] .uploadHeader
+{
+    background-image: url("../../assets/images/waste_icon.png");
+    background-size: 24px 24px;
+}
+
+.uploadSection[type=humanexperience] .uploadHeader
+{
+    background-image: url("../../assets/images/human_icon.png");
+    background-size: 24px 24px;
+}
+
+.performanceReviewFeedback 
+{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#feedbackText
+{
+    resize: none;
+    width: 75%;
+    height: 35%;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border-color: lightgrey;
+    font-size: 13px;
+}
+
+#additionalFile
+{
+    float: left;
+    padding: 10px 20px 10px 20px;
+    width: 45%;
+    font-size: 13px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.width47p
+{
+    width: 47% !important;
+}
+
+.fontSize14
+{
+    font-size: 14px !important;
+}
+
+.colorDarkgrey
+{
+    color: darkgrey;
+}
+
+#sortOrder
+{
+    color: #4a4a4a;
+/*    margin-left: 10px;*/
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sortOrder
+{
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+#sortOrder i
+{
+    font-size: 16px;
+}
+
+.bottomButtons
+{
+    float: left;
+    margin-top: 30px;
+}
+
+.fileUploadItem 
+{
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    color: rgb(87,152,229);
+    margin-top: 10px;
+}
+
+span.removeUploadItem 
+{
+    margin-right: 14px;
+    color: white;
+    background-color: grey;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding-left: 5.5px;
+}
+
+#footer {
+    display: block;
+    height: 20px;
+    /* margin-top: 77px; */
+    /* margin-bottom: 18px; */
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dateMod
+{
+    text-align: right;
+}
+
+.dropBox
+{
+    color: #428bca; 
+    border: 2px solid #428bca;
+}
+
+.oneDrive
+{
+    color: rgb(9, 74, 178); 
+    border: 2px solid rgb(9, 74, 178);
+}
+
+.googleDrive
+{
+    color: lightgrey;
+    border: 2px solid rgb(148,158,171);
+    /* margin-left: 0px !important; */
+    background: url(../../assets/images/logo_drive_32px.png) 3px 3px no-repeat;
+    background-size: 22px 22px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropBox, .oneDrive
+{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 4px;
+    /* height: 32px; */
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.oneDrive:hover
+{
+    background-color: rgb(9, 74, 178);   
+    color: white;
+}
+
+.googleDrive:hover
+{
+    background-color: lightgrey;   
+    color: white;
+}
+
+.dropBox:hover
+{
+    background-color: #428bca;
+    color: white;
+}
+
+/*
+.fa-dropbox, .fa-windows
+{
+    margin-left: 19px;
+    margin-right: 10px;
+}
+
+.fa-google
+{
+    margin-left: 11px;
+    margin-right: 10px;
+}
+*/
+
+.loaderDropbox 
+{
+    width: 20px;
+    height: 20px;
+    background: transparent url(../../assets/images/ajax-loader.gif) no-repeat;
+    float: left;
+    margin-left: 9px;
+}
+
+span.uploadSeparator
+{
+    margin-top: 25px;
+    float: left;
+    margin-left: 10px;
 }

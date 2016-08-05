@@ -1,14 +1,14 @@
 LEEDOnApp.controller('strategiesController', function($rootScope, $scope) {
 	$rootScope.header = 'Strategies';
-	$scope.isActive_ea = false;
-	$scope.isActive_ss = false;
-	$scope.isActive_we = false;
-	$scope.isActive_mr = false;
-	$scope.isActive_iq = false;
-	$scope.isActive_lt = false;
-	$scope.isActive_pi = false;
-	$scope.isActive_ieq = false;
-	$scope.isActive_id = false;
+	$scope.isActive_ea = true;
+	$scope.isActive_ss = true;
+	$scope.isActive_we = true;
+	$scope.isActive_mr = true;
+	$scope.isActive_iq = true;
+	$scope.isActive_lt = true;
+	$scope.isActive_pi = true;
+	$scope.isActive_ieq = true;
+	$scope.isActive_id = true;
 	$scope.activeButton_ea = function() {
 		$scope.isActive_ea = !$scope.isActive_ea;
 		if ($scope.isActive_ea){
@@ -90,4 +90,8 @@ LEEDOnApp.controller('strategiesController', function($rootScope, $scope) {
 			document.getElementById('parent-section-lt').style.display = "none";
 		}
 	}
+
+	$scope.showDocumentsIntent = function() {
+		$('#show_documents_intent_modal').modal('show');
+	};
 });

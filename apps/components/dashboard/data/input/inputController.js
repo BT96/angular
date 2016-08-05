@@ -3,13 +3,17 @@ LEEDOnApp.controller('inputController', function($rootScope, $scope) {
 	document.getElementById("manual_img").style.display = "block";
 	$scope.selectedTab = 'energy';
 	window.section = $scope.selectedTab;
+	$('body').on('click', '#continue_manual_meter',function(){
+		$('.meterName').trigger('click');
+		$scope.changeEnergyScoreValue("only");
+	});
 	$('body').on('click', '.meterName',function(){
 		$('#add_data_button').show();
 		$('.normal_meter').hide();
 		$('.waste_meter').show();
 		$('.meterList').hide();	
 		$('.editMeter').show();
-		$('.data_input_tool_bar').html('<i class="fa fa-arrow-left mr10" aria-hidden="true"></i>All Meters');
+		$('.data_input_tool_bar').html('<i class="fa mr10" aria-hidden="true"></i>All Meters');
 		$('.containerDiv').removeClass("greyBorder");
 		$('.data_input_tool_bar').addClass('back_to_all_img');
 		$('.data_input_tool_bar').removeClass('input_nav_active');

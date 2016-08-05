@@ -396,7 +396,7 @@
                         <!--</span>-->
                     </div>
                 </div>
-                <div class="form-group gresb-elem">
+                <!-- <div class="form-group gresb-elem">
                     <h4 class="text-left"> Meter Area Type </h4>
                     <div class="input-group block radius3">
                         <div class="dropdown">
@@ -427,16 +427,16 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <span class="mb25 mt15 width100p text-right">
-                <input type="submit" value="Add" id="add_meter_manually" class="btnOutline mt10">
-                </span>
+                </div> -->
+                <!-- <span class="mb25 mt15 width100p text-right">
+                    <input type="submit" value="Add" id="add_meter_manually" class="btnOutline mt10">
+                </span> -->
                 <div class="waste_meters_txt mt25 mb20">*Please add data for Waste, CO2 and VOCs meters directly from data input section of the LEED Performance System</div>
                 <div class="manually_added_meters_wrap display_none">
                     <div class="manual_meters_head mb20">Manually Added Meters in your LEED Performance System</div>
                     <div id="manual_meters_list"></div>
                 </div>
-                <div class="continue_manual_meter_div"><input type="submit" value="DONE" id="continue_manual_meter" class="btn btnGreen" data-dismiss="modal" style="height: 45px;">
+                <div class="continue_manual_meter_div"><input type="submit" value="ADD" id="continue_manual_meter" class="btn btnGreen" data-dismiss="modal" style="height: 45px;">
                     <input value="Cancel" class="btn btnOutline floatr width130px" data-dismiss="modal">
                 </div>
             </div>
@@ -510,9 +510,9 @@
                     <div class="progress_success_img_center progress_bar" data-div="softwareSubscription" title="Order Selection"></div>
                     <div class="progress_success_img_center progress_bar" data-div="payment" title="Payment"></div>
                     <div class="progress_success_img_center progress_bar" data-div="receipt" title="Receipt"></div>
-                    <div class="progress_success_img_center progress_bar" data-div="buildingConfirmation" title="Confirm Building Owner"></div>
-                    <div class="progress_success_img_center progress_bar" data-div="teamManagement" title="Team Management"></div>
-                    <div class="progress_success_img_right progress_bar" data-div="meterSetup" title="Meter Setup"></div>
+                    <div class="progress_success_img_right progress_bar" data-div="buildingConfirmation" title="Confirm Building Owner"></div>
+                    <!-- <div class="progress_success_img_center progress_bar" data-div="teamManagement" title="Team Management"></div>
+                    <div class="progress_success_img_right progress_bar" data-div="meterSetup" title="Meter Setup"></div> -->
                 </div>
                 <div class="forward_btn_access"></div>
 
@@ -598,7 +598,7 @@
         </div>
     </div>
 </div>
-<div class="modal fade gothambook" id="leed_certification_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade gothambook" id="leed_certification_modal" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-md">
         <div class="modal-content">
             <!-- Preloader -->
@@ -609,17 +609,17 @@
             </div>
             <!-- Preloader ends -->
             <div class="modal-header">
-                <button aria-hidden="true" data-dismiss="modal" class="close add_custom_strategy_close" type="button">×</button>
+                <button aria-hidden="true" data-dismiss="modal" class="close add_custom_strategy_close" ui-sref="dashboardState.strategiesState" type="button">×</button>
                 <div class="modal-title" style="font-weight:bold;"></div>
                 <ol class="wizard-progress clearfix">
                     <li id="li-eligibility">
                         <span class="visuallyhidden">Step </span><span class="step-num">1</span>
                         <span class="step-name">Eligibility</span>
                     </li>
-                    <li id="li-documentation">
+                    <!-- <li id="li-documentation">
                         <span class="visuallyhidden">Step </span><span class="step-num">2</span>
                         <span class="step-name">Documentation</span>
-                    </li>
+                    </li> -->
                     <li id="li-payment">
                         <span class="visuallyhidden">Step </span><span class="step-num">3</span>
                         <span class="step-name">Payment</span>
@@ -634,6 +634,59 @@
                 <div class="tab-content" ui-view="certificationModal" style="clear: left;">
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade gothambook" id="show_documents_intent_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-hidden="true" data-dismiss="modal" class="close add_custom_strategy_close" type="button">×</button>
+                <h3 class="modal-title rating-system">LEED v4 O+M: EB ACP</h3>
+                <h4 class="credit-name">SS106: Site Development - Protect or Restore Habitat</h4>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body modal_padding">
+                <div class="option-docs-container">
+                    <p class="option-title"></p>
+                    <p class="option-landing-message">The following will help guide you through the documentation required for meeting LEED O+M Sustainable Sites Site Development - Protect or Restore Habitat. If approved during the third party GBCI review your project will earn 2 point.</p>
+                    <div class="option-docs-div">
+                        <div class="option-doc">
+                            <p class="requirement-question-title"><span class="requirement-question-textfD v4 O+M: EB Transit station">Download the <a href="https://s3.amazonaws.com/leedonlinedev/documents/usgbc/leed/config/credit_pool/2009/one_off/acp/V01/ss106.pdf">LEED form</a> and populate with your information</span></p>
+                            <div class="elements_questionnaire_upload option-doc-upload" id="option-doc-upload-1654" data-optionid="651" data-documentid="1654"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-optionid="651" data-documentid="1654" name="option_documents" type="file" multiple=""></span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="option-doc">
+                            <p class="requirement-question-title"><span class="requirement-question-textfD v4 O+M: EB Transit station">Site Plan</span><span class="additional-info">(If pursuing Option 1 (On-site restoration) provide a site plan that depicts the project boundary, building footprint(s), site area, areas vegetated with native or adapted vegetation, and plant list.)</span></p>
+                            <div class="elements_questionnaire_upload option-doc-upload" id="option-doc-upload-1655" data-optionid="651" data-documentid="1655"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-optionid="651" data-documentid="1655" name="option_documents" type="file" multiple=""></span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="option-doc">
+                            <p class="requirement-question-title"><span class="requirement-question-textfD v4 O+M: EB Transit station">Organization Acceptance</span><span class="additional-info">(If pursuing Option 2 (Financial Support) provide verification that the land trust or conservation organization is nationally or locally recognized (for projects outside the US) or a document from the Land Trust Alliance confirming that it is accredited (for projects in the US))</span></p>
+                            <div class="elements_questionnaire_upload option-doc-upload" id="option-doc-upload-1656" data-optionid="651" data-documentid="1656"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-optionid="651" data-documentid="1656" name="option_documents" type="file" multiple=""></span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="option-doc">
+                            <p class="requirement-question-title"><span class="requirement-question-textfD v4 O+M: EB Transit station">Contract</span><span class="additional-info">(If pursuing Option 2 (Financial Support) provide the contract or agreement with the land trust or conservation organization describing the use of the funds. Include information on the location of the organization, amount of financial support, and activities that the funds will support.)</span></p>
+                            <div class="elements_questionnaire_upload option-doc-upload" id="option-doc-upload-1657" data-optionid="651" data-documentid="1657"><span class="btn btn-success fileinput-button"><i class="fa fa-upload"></i><span>Add Document</span><input class="elements_file_data_new upload" data-optionid="651" data-documentid="1657" name="option_documents" type="file" multiple=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Body -->
+
+            <div id="readyForReview">
+                <a id="readyForReview_submit" data-dismiss="modal" class="waves-effect waves-light btn btn-green">
+                            Ready for Review
+                        </a>
+                <a id="incompleteForReview" class="waves-effect waves-light" style="display:none;">(Mark incomplete)</a>
+            </div>
+
         </div>
     </div>
 </div>

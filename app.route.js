@@ -62,9 +62,15 @@ LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) 
         templateUrl: "apps/components/dashboard/strategies/strategiesView.html",
         controller : "strategiesController"
     })
-
-
-
+    .state("dashboardState.strategiesState.certificationEligibilityrequiredState", {
+        url: "/certification-eligibility-required",
+        views: {
+                'certificationModal@dashboardState': {
+                    templateUrl: "apps/components/dashboard/strategies/certification/eligibilityRequired/certificationEligibilityRequired.html",
+                    controller: "certificationEligibilityRequiredController"
+            }
+        }
+    })
     .state("dashboardState.strategiesState.certificationEligibilityState", {
         url: "/certification-eligibility",
         views: {
@@ -101,9 +107,6 @@ LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) 
             }
         }
     })
-
-
-
     .state("dashboardState.analysisState", {
         url: "/analysis",
         templateUrl: "apps/components/dashboard/analysis/analysisView.html",
@@ -153,6 +156,11 @@ LEEDOnApp.config(function($stateProvider, $compileProvider, $urlRouterProvider) 
         url: "/account",
         templateUrl: "apps/components/dashboard/manage/account/accountView.html",
         controller : "accountController"
+    })
+    .state("dashboardState.manageState.certificationState", {
+        url: "/certification",
+        templateUrl: "apps/components/dashboard/manage/certification/certificationView.html",
+        controller : "certificationController"
     })
     .state("dashboardState.manageState.connectedappsState", {
         url: "/connectedapps",

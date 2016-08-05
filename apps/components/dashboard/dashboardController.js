@@ -2,6 +2,10 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
 	$rootScope.header        = 'Dashboard';
 	$rootScope.main_appClass = '';
     $scope.receipt_direct    = false;
+    $scope.energy_score      = '';
+    $scope.changeEnergyScoreValue = function(newVal) {
+        $scope.energy_score = newVal;
+    };
 	// $rootScope.bodyLayout    = '';
 	// $rootScope.htmlLayout    = 'js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths';
 	if ($stateParams.leed_id == "800000100"){
@@ -42,7 +46,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
           "title"    : "Meter Setup"
         }
     };
-    window.full_version_arr   = ["buildingInfo", "softwareSubscription", "hardwareSubscription", "orderSelection", "payment", "receipt", "buildingConfirmation", "teamManagement", "meterSetup"];
+    window.full_version_arr   = ["buildingInfo", "softwareSubscription", "hardwareSubscription", "orderSelection", "payment", "receipt", "buildingConfirmation"];
     $scope.PAYMENT_VERSION    = 'V1';
     $scope.want_plaque_global     = true;
     $scope.purchase_plaque_global = false;
@@ -1108,6 +1112,8 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
             {
                 $('.meterInfoNumber').html(String($scope.unique_notification_arr.length));
                 $('.notification_module').html('<div class="notification_module_header">Just a couple more steps and you\'ll be all set up!</div>')
+                $('.notification_module').append('<div class="red_bell_notification pd20 cursor_pointer" id="building_per_data_link" style="height: 100px;"><i class="fa fa-info-circle fa-lg light_color mr15" style="float: left;"></i><p style="float: left;font-weight: bold;">Want to Proceed to Certification?</p><p style="margin-left: 30px;">Complete these strategies to get LEED certified.</p></div>');
+                $('.notification_module').append('<div class="notification_line"></div>');
                 for (var i = 0; i < $scope.unique_notification_arr.length; i++){
                     if ($scope.unique_notification_arr[i] == 'trial_notification')
                     {
@@ -1129,7 +1135,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 red_bell_notification" id="trial_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>' + trial_time_days_string + '</span></div>');
+                        $('.notification_module').append('<div class="pd20 red_bell_notification" id="trial_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>' + trial_time_days_string + '</span></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "new_user_manual")
                     {
@@ -1137,7 +1143,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="new_user_manual_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>User manual has been updated</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="new_user_manual_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>User manual has been updated</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "skipped_payment")
                     {
@@ -1146,7 +1152,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="select_plan_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Select a plan</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="select_plan_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Select a plan</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "score_computation")
                     {
@@ -1154,7 +1160,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="score_computation_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Score computation is in progress</span></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="score_computation_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Score computation is in progress</span></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "request_access")
                     {
@@ -1169,7 +1175,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                             {
                                 $('.notification_module').append('<div class="notification_line"></div>');
                             }
-                            $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="request_access_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Permission request</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                            $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="request_access_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Permission request</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                         }
                     }
                     else if ($scope.unique_notification_arr[i] == "data_input_setup")
@@ -1178,7 +1184,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_setup_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Add basic info now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_setup_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Add basic info now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "data_input_energy")
                     {
@@ -1186,7 +1192,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_energy_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Add energy meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_energy_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Add energy meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "data_input_water")
                     {
@@ -1194,7 +1200,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_water_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Add water meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_water_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Add water meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "data_input_waste")
                     {
@@ -1202,7 +1208,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_waste_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Add waste meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_waste_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Add waste meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "data_input_transportation")
                     {
@@ -1210,7 +1216,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_transportation_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Send survey now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_transportation_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Send survey now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                     }
                     else if ($scope.unique_notification_arr[i] == "data_input_human")
                     {
@@ -1218,7 +1224,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                         {
                             $('.notification_module').append('<div class="notification_line"></div>');
                         }
-                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_human_from_notification"><i class="icon-info-sign fa-lg light_color mr15"></i><span>Add co2/voc meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
+                        $('.notification_module').append('<div class="pd20 cursor_pointer red_bell_notification" id="data_input_human_from_notification"><i class="fa fa-info-circle fa-lg light_color mr15"></i><span>Add co2/voc meter now</span><i class="icon-angle-right flr fa-2x light_color "></i></div>');
                         meterStatus = true;
                     }
                 };
@@ -1258,6 +1264,8 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
                 window.location.href = window.location.protocol + '//' + window.location.host + "/v3/#/dashboard/" + $scope.leed_id + "/data/input/";
             } else if (notification_selected == 'data_input_human_from_notification') {
                 window.location.href = window.location.protocol + '//' + window.location.host + "/v3/#/dashboard/" + $scope.leed_id + "/data/input/";
+            }else if (notification_selected == 'building_per_data_link') {
+                window.location.href = window.location.protocol + '//' + window.location.host + "/v3/#/dashboard/" + $scope.leed_id + "/strategies/certification-eligibility-required";
             }
         });
     };
@@ -1270,5 +1278,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
         $scope.activationFlow('receipt');
         $scope.receipt_direct = true;
     });
+
+    $scope.notificationSetup();
 
 });
