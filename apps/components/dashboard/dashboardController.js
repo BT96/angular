@@ -1110,7 +1110,7 @@ LEEDOnApp.controller('dashboardController', function($rootScope, $scope, $http, 
 
             if ($scope.unique_notification_arr.length)
             {
-                $('.meterInfoNumber').html(String($scope.unique_notification_arr.length));
+                $('.meterInfoNumber').html(String($scope.unique_notification_arr.length + 1));
                 $('.notification_module').html('<div class="notification_module_header">Just a couple more steps and you\'ll be all set up!</div>')
                 $('.notification_module').append('<div class="red_bell_notification pd20 cursor_pointer" id="building_per_data_link" style="height: 100px;"><i class="fa fa-info-circle fa-lg light_color mr15" style="float: left;"></i><p style="float: left;font-weight: bold;">Want to Proceed to Certification?</p><p style="margin-left: 30px;">Complete these strategies to get LEED certified.</p></div>');
                 $('.notification_module').append('<div class="notification_line"></div>');
